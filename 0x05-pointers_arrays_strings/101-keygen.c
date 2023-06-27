@@ -1,3 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define PASSWORD_LENGTH 10
+/**
+ * main -  a program that generates random valid passwords
+ * for the program 101-crackme
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -22,4 +32,4 @@ int main(void)
 	printf("%c", c);
 
 	return (0);
-}
+}}
