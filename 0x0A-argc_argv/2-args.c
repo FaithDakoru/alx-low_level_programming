@@ -1,18 +1,12 @@
 #include <stdio.h>
-
 /**
- * main - prints the number of arguments
- * passed to the program
- *
+ * main - main function
  * @argc: argumentc
- *
  * @argv: vector of arguments
- *
  *Return: always 0
  */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
-
 	int i;
 	for (i = 0; i < argc; i++)
 	{
